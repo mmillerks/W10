@@ -11,7 +11,7 @@
 function palindrome(str) {
     const re = /[^A-Za-z0-9]/g;
     const lowRegStr = str.toLowerCase().replace(re, "");
-    cost reverseStr = lowRegStr.split('').reverse().join('');
+    const reverseStr = lowRegStr.split('').reverse().join('');
     return reverseStr === lowRegStr;
 }
 

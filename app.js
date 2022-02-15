@@ -119,7 +119,7 @@ console.log ( circle.circumference(75) );
 //in index.js answer the following and export the function
 
 const capitalize = require('./capitalize/index');
-capitalize('a lazy fox)';
+capitalize('a lazy fox');
 console.log(capitalize('a lazy fox'));
 
 
